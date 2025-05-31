@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>This is Pharmacy - Wholesale Pharmaceutical Distributor in Liberia</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="#home">
+                    <img src="images/logo.jpg" alt="This is Pharmacy Logo" class="logo-img">
+                    <h1>WINNER PHARMACEUTICAL</h1>
+                </a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#branches">Branches</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li class="has-submenu">
+                    <a href="#contact">Contact</a>
+                    <ul class="submenu">
+                        <li><a href="#team">Our Team</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>WELCOME TO WINNER PHARMACEUTICAL</h1>
+            <p>FOSTERING COMMUNITY WELL-BEING THROUGH ACCESSIBLE AND COMPASSINATE HEALTHCARE SERVICES</p>
+            <a href="#contact" class="cta-button">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-card mission">
+                    <div class="about-image">
+                        <img src="images/mission.jpg" alt="Our Mission" class="about-img">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Our Mission</h3>
+                        <p>To supply high-quality medications at wholesale prices to pharmacies across Liberia, ensuring healthcare accessibility for all.</p>
+                    </div>
+                </div>
+                
+                <div class="about-card story">
+                    <div class="about-image">
+                        <img src="images/story.jpg" alt="Our Story" class="about-img">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>Established with a vision to bridge the gap in pharmaceutical distribution in Liberia, we have built strong partnerships with leading manufacturers in India to ensure a reliable supply of quality medications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="search-filter">
+                <input type="text" id="searchInput" placeholder="Search products...">
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="antibiotics">Antibiotics</option>
+                    <option value="painkillers">Painkillers</option>
+                    <option value="vitamins">Vitamins</option>
+                </select>
+            </div>
+            <div class="products-grid">
+                <div class="product-item">
+                    <img src="images/painkiller1.jpg" alt="Painkiller Product">
+                    <div class="product-overlay">
+                        <h3>Pain Relief Tablets</h3>
+                        <p>Effective pain management solution</p>
+                        <p class="price">$XX.XX</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/painkiller2.jpg" alt="Antibiotic Product">
+                    <div class="product-overlay">
+                        <h3>Antibiotic Capsules</h3>
+                        <p>Broad-spectrum antibiotic treatment</p>
+                        <p class="price">$XX.XX</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/painkiller3.jpg" alt="Vitamin Product">
+                    <div class="product-overlay">
+                        <h3>Vitamin Supplements</h3>
+                        <p>Essential vitamins for daily health</p>
+                        <p class="price">$XX.XX</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/painkiller4.jpg" alt="Medical Supply">
+                    <div class="product-overlay">
+                        <h3>Medical Supplies</h3>
+                        <p>Quality medical equipment and supplies</p>
+                        <p class="price">$XX.XX</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/painkiller5.jpg" alt="First Aid Kit">
+                    <div class="product-overlay">
+                        <h3>First Aid Kits</h3>
+                        <p>Complete emergency care solutions</p>
+                        <p class="price">$XX.XX</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/painkiller6.jpg" alt="Health Product">
+                    <div class="product-overlay">
+                        <h3>Health Supplements</h3>
+                        <p>Natural health and wellness products</p>
+                        <p class="price">$XX.XX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h3>Importation & Logistics</h3>
+                    <p>Efficient import and distribution of pharmaceutical products from India</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-warehouse"></i>
+                    <h3>Wholesale Distribution</h3>
+                    <p>Competitive wholesale prices for pharmacies and healthcare facilities</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Pharmacy Supply</h3>
+                    <p>Reliable supply chain for pharmacies across Liberia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Branches Section -->
+    <section id="branches" class="branches">
+        <div class="container">
+            <h2>Our Branches</h2>
+            <div class="branches-grid">
+                <div class="branch-card">
+                    <div class="branch-header">
+                        <i class="fas fa-store"></i>
+                        <h3>Main Branch</h3>
+                    </div>
+                    <div class="branch-info">
+                        <div class="info-group">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Coca Cola Factory, Paynesville, Liberia</p>
+                        </div>
+                        <div class="info-group">
+                            <i class="fas fa-clock"></i>
+                            <p>Mon-Sat: 8:00 AM - 6:00 PM</p>
+                        </div>
+                        <div class="info-group">
+                            <i class="fas fa-phone"></i>
+                            <p>+231 123 456 789</p>
+                        </div>
+                        <div class="manager-info">
+                            <h4>Branch Manager</h4>
+                            <p>Rita P Queh</p>
+                            <p>+231 7763 46338</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="branch-card">
+                    <div class="branch-header">
+                        <i class="fas fa-store"></i>
+                        <h3>Duala Branch</h3>
+                    </div>
+                    <div class="branch-info">
+                        <div class="info-group">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Duala Kuwait, Bushrod Island, Liberia</p>
+                        </div>
+                        <div class="info-group">
+                            <i class="fas fa-clock"></i>
+                            <p>Mon-Sat: 8:00 AM - 6:00 PM</p>
+                        </div>
+                        <div class="info-group">
+                            <i class="fas fa-phone"></i>
+                            <p>+231 123 456 790</p>
+                        </div>
+                        <div class="manager-info">
+                            <h4>Branch Manager</h4>
+                            <p>Fannie K Peah</p>
+                            <p>+231 777 168 007</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="branch-card">
+                    <div class="branch-header">
+                        <i class="fas fa-store"></i>
+                        <h3>Ganta Branch</h3>
+                    </div>
+                    <div class="branch-info">
+                        <div class="info-group">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Nimba County Gompa City, Liberia</p>
+                        </div>
+                        <div class="info-group">
+                            <i class="fas fa-clock"></i>
+                            <p>Mon-Sat: 8:00 AM - 6:00 PM</p>
+                        </div>
+                        <div class="info-group">
+                            <i class="fas fa-phone"></i>
+                            <p>+231 123 456 792</p>
+                        </div>
+                        <div class="manager-info">
+                            <h4>Branch Manager</h4>
+                            <p>Naomie P Sackie</p>
+                            <p>+231 123 456 793</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="branch-card">
+                    <div class="branch-header">
+                        <i class="fas fa-store"></i>
+                        <h3>Buchanan Branch</h3>
+                    </div>
+                    <div class="branch-info">
+                        <div class="info-group">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>321 Healthcare Blvd, Buchanan, Liberia</p>
+                        </div>
+                        <div class="info-group">
+                            <i class="fas fa-clock"></i>
+                            <p>Mon-Fri: 8:00 AM - 6:00 PM<br>Sat: 9:00 AM - 2:00 PM</p>
+                        </div>
+                        <div class="info-group">
+                            <i class="fas fa-phone"></i>
+                            <p>+231 123 456 794</p>
+                        </div>
+                        <div class="manager-info">
+                            <h4>Branch Manager</h4>
+                            <p>Sarah Williams</p>
+                            <p>+231 123 456 795</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="branch-card">
+                    <div class="branch-header">
+                        <i class="fas fa-store"></i>
+                        <h3>Pipline Branch</h3>
+                    </div>
+                    <div class="branch-info">
+                        <div class="info-group">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Paynesville Red Light, Liberia</p>
+                        </div>
+                        <div class="info-group">
+                            <i class="fas fa-clock"></i>
+                            <p>Mon-Sat: 8:00 AM - 6:00 PM</p>
+                        </div>
+                        <div class="info-group">
+                            <i class="fas fa-phone"></i>
+                            <p>+231 123 456 796</p>
+                        </div>
+                        <div class="manager-info">
+                            <h4>Branch Manager</h4>
+                            <p>Watta</p>
+                            <p>+231 123 456 797</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="branch-card">
+                    <div class="branch-header">
+                        <i class="fas fa-store"></i>
+                        <h3>Kakata Branch</h3>
+                    </div>
+                    <div class="branch-info">
+                        <div class="info-group">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p> Lower Margibi County, Dolo's Town, Liberia</p>
+                        </div>
+                        <div class="info-group">
+                            <i class="fas fa-clock"></i>
+                            <p>Mon-Sat: 8:00 AM - 6:00 PM</p>
+                        </div>
+                        <div class="info-group">
+                            <i class="fas fa-phone"></i>
+                            <p>+231 123 456 798</p>
+                        </div>
+                        <div class="manager-info">
+                            <h4>Branch Manager</h4>
+                            <p>James Cooper</p>
+                            <p>+231 123 456 799</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Our Leadership Team</h2>
+            <p class="section-description">Meet the experienced professionals leading Winner Pharmaceutical</p>
+            
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="images/ceo.jpg" alt="CEO - Victor Peah" class="team-img">
+                    </div>
+                    <div class="team-info">
+                        <h3>Mr/Mrs Victor Peah</h3>
+                        <p class="position">Chief Executive Officer</p>
+                        <p class="bio">With over 15 years of experience in pharmaceutical distribution, Mr/Mrs Peahleads our company with vision and expertise.</p>
+                        <div class="contact-info">
+                            <p><i class="fas fa-envelope"></i> ceo@winnerpharm.com</p>
+                            <p><i class="fas fa-phone"></i> +231 88 058 4976</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="images/francis.jpg" alt="Operations Director - Francis Gobah" class="team-img">
+                    </div>
+                    <div class="team-info">
+                        <h3>Francis Gobah</h3>
+                        <p class="position">Chief Accountant</p>
+                        <p class="bio">Francis oversees our  operations, ensuring efficient distribution and quality control across all branches.</p>
+                        <div class="contact-info">
+                            <p><i class="fas fa-envelope"></i> accountant@winnerpharm.com</p>
+                            <p><i class="fas fa-phone"></i> +231 88 123 4568</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="images/victor1.jpg" alt="Head Pharmacist - Dr. Michael Johnson" class="team-img">
+                    </div>
+                    <div class="team-info">
+                        <h3>Victor Peah JR</h3>
+                        <p class="position">Head Pharmacist</p>
+                        <p class="bio">Mr Peah ensures the highest standards of pharmaceutical care and regulatory compliance across our network.</p>
+                        <div class="contact-info">
+                            <p><i class="fas fa-envelope"></i> pharmacy@winnerpharm.com</p>
+                            <p><i class="fas fa-phone"></i> +231 88 123 4569</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="images/team/sales.jpg" alt="Sales Director - Sarah Williams" class="team-img">
+                    </div>
+                    <div class="team-info">
+                        <h3>Sarah Williams</h3>
+                        <p class="position">Sales Director</p>
+                        <p class="bio">Sarah leads our sales team, building strong relationships with healthcare providers and ensuring customer satisfaction.</p>
+                        <div class="contact-info">
+                            <p><i class="fas fa-envelope"></i> sales@winnerpharm.com</p>
+                            <p><i class="fas fa-phone"></i> +231 88 123 4570</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Pharmacies say about us 1Q</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Winner Pharmaceutical has been our trusted supplier for over 5 years. Their service and product quality are exceptional."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Dr. James Smith</h4>
+                        <p>Shine Pharmacy</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Their wide range of products and reliable delivery have helped us serve our customers better."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Mary Johnson</h4>
+                        <p>Redemption Pharmacy</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Excellent customer service and competitive pricing. They're our go-to distributor for all pharmaceutical needs."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>David Williams</h4>
+                        <p>Sonia Pharmacy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Our Facilities</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/mission.jpg" alt="Warehouse Facility">
+                    <div class="gallery-overlay">
+                        <h3>Modern Warehouse</h3>
+                        <p>State-of-the-art storage facilities</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/story.jpg" alt="Quality Control">
+                    <div class="gallery-overlay">
+                        <h3>Quality Control</h3>
+                        <p>Rigorous quality assurance processes</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/painkiller1.jpg" alt="Distribution Center">
+                    <div class="gallery-overlay">
+                        <h3>Distribution</h3>
+                        <p>Efficient logistics network</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm" action="send-mail.php" method="POST">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" required placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">
+                            <span class="button-text">Send Message</span>
+                            <span class="loading-spinner"></span>
+                        </button>
+                        <div class="form-response"></div>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Pharmacy Street, Monrovia, Liberia</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+231 123 456 789</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@thisispharmacy.com</p>
+                    </div>
+                    <div class="business-hours">
+                        <h3>Business Hours</h3>
+                        <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+                        <p>Saturday: 9:00 AM - 2:00 PM</p>
+                        <p>Sunday: Closed</p>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WINNER PHARMACEUTICAL</h3>
+                    <p>Your trusted wholesale pharmaceutical partner in Liberia</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/19YMYK8Yf1/?mibextid=LQQJ4d"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Winner Pharmaceutical. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
